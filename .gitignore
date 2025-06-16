@@ -1,0 +1,98 @@
+# Datasets
+*.h5
+*.h5ad
+*.csv
+*.tsv
+*.txt
+*.xlsx
+*.xls
+data/
+datasets/
+**/data/
+**/datasets/
+
+# Models and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.joblib
+*.model
+*.weights
+models/
+checkpoints/
+**/models/
+**/checkpoints/
+saved_models/
+**/saved_models/
+
+# Large files
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+lightning_logs/
+
+# Logs
+*.log
+logs/
+**/logs/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+**/tmp/
+**/temp/
