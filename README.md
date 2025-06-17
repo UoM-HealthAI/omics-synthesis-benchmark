@@ -47,6 +47,16 @@ omics_analysis/
 4. Run benchmarking experiments
 5. Analyze and compare results
 
+## Preliminary Results
+
+### scDiffusion Unconditional Sampling
+
+Initial results from scDiffusion model showing unconditional generation of synthetic single-cell data:
+
+![Dimensionality Reduction of scDiffusion Generated Cells](plots/dimensionality_reduction.png)
+
+The visualization shows PCA and t-SNE projections of 3000 synthetically generated cells with 128 gene features. The PCA captures 73.4% of the variance in the first two components, while t-SNE reveals the underlying structure and diversity of the generated cell population.
+
 ## Status
 
 🚧 **Work in Progress** - Models and datasets are being set up for benchmarking.

@@ -6,6 +6,8 @@
 *.txt
 *.xlsx
 *.xls
+*.npz
+*.npy
 data/
 datasets/
 **/data/
