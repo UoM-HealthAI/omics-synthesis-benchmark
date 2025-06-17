@@ -69,6 +69,20 @@ The comparison demonstrates that scDiffusion successfully learns the underlying 
 - **Cell type diversity**: Real data contains 12 cell types from Tabula Muris, and generated data shows comparable structural complexity
 - **Quality assessment**: Both PCA and t-SNE visualizations show good mixing between real and synthetic data
 
+## Progress Tracking
+
+| Model | Human Lung PF | Tabula Muris | Tabula Sapiens | Waddington-OT | PBMC68k |
+|-------|---------------|--------------|----------------|---------------|---------|
+| scDiffusion | ⚠️ | ✅ | ❌ | ❌ | ❌ |
+| ACTIVA | ❌ | ❌ | ❌ | ❌ | ❌ |
+| scGAN | ❌ | ❌ | ❌ | ❌ | ❌ |
+| scDesign3 | ❌ | ❌ | ❌ | ❌ | ❌ |
+
+**Legend:**
+- ✅ Completed
+- ⚠️ In Progress  
+- ❌ Not Started
+
 ## Status
 
 🚧 **Work in Progress** - Models and datasets are being set up for benchmarking.
