@@ -105,6 +105,10 @@ events.out.tfevents.*
 **/output/
 **/job/
 
+# SLURM job output files
+*.err
+*.out
+
 # Large model files
 *.pth
 *.h5ad
