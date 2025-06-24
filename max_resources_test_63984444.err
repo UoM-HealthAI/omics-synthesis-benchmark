@@ -1,2 +1,0 @@
-slurmstepd: error: IPMI failure detected, energy reading for this step will not be accurate.
-slurmstepd: error: *** JOB 63984444 ON gn30 CANCELLED AT 2025-06-23T16:29:30 ***
