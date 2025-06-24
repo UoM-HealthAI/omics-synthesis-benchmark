@@ -1,0 +1,1 @@
+python main.py --param parameters_test.json --generate --cells_no 1000 500 100 200 1000 500 100 200 1000 500 100 200 --model_path /ceph/hpc/home/eujinyuanw/omics_analysis/benchmark/scGAN/output/benchmark_scGAN_test_tabula_muris/ --save_path /ceph/hpc/home/eujinyuanw/omics_analysis/benchmark/output/sample/scGAN/tabula_muris/fake.h5ad
